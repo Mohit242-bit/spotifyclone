@@ -1,0 +1,22 @@
+ /* body{
+ color:white;
+  background-color: black; 
+}  */
+
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.upper{
+  height:12vh;
+}
+.lower{
+  height: 75vh;
+}
+.left{
+  width:25vw;
+  
+}
+.right{
+  width:75vw;
+}
