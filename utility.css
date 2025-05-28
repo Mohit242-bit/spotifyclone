@@ -14,3 +14,18 @@ align-items: center;
 .justify-centre{
     justify-content: center;
 }
+.bg-black{
+  color:white;
+  background-color: black;
+}
+.bg-grey{
+  color:white;
+  background-color: rgb(28, 26, 26);
+}
+.invert{
+  filter:invert(1);
+}
+
+.m1{
+  margin:5px;
+}

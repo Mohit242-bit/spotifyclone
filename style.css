@@ -6,9 +6,15 @@
 .container{
   display:flex;
   flex-direction: column;
+
 }
 .upper{
-  height:12vh;
+  background-color: black;
+  padding:15px;
+  margin:5px;
+  height:5vh;
+  align-items: centre;
+  justify-content: centre;
 }
 .lower{
   height: 75vh;
@@ -19,4 +25,24 @@
 }
 .right{
   width:75vw;
+}
+
+.library{
+  margin:15px;
+  padding:3px;
+  align-items: centre;
+}
+.library img {
+  
+  width:20px;
+  height:20px;
+  margin-left:auto;
+}
+
+.playlist{
+  padding: 10px 20px;
+  border-radius:10px;
+}
+.playlist btton{
+  border-radius:50%;
 }
