@@ -2,47 +2,119 @@
  color:white;
   background-color: black; 
 }  */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
 
-.container{
-  display:flex;
-  flex-direction: column;
+ .container {
+   display: flex;
+   flex-direction: column;
 
-}
-.upper{
-  background-color: black;
-  padding:15px;
-  margin:5px;
-  height:5vh;
-  align-items: centre;
-  justify-content: centre;
-}
-.lower{
-  height: 75vh;
-}
-.left{
-  width:25vw;
+ }
+
+ .logo {
+   width: 32px;
+   height: 32px;
+
+ }
+
+ .upper {
+   background-color: black;
+   padding: 15px;
+   margin: 5px;
+   height: 5vh;
+   align-items: centre;
+   justify-content: centre;
+ }
+
+ .lower {
+   height: 75vh;
+ }
+
+ .left {
+   width: 315px;
+   background-color: #121212;
+   border-radius: 8px;
+   padding: 16px 8px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   min-height: 50vh;
+
+ }
+
+ .right {
+   width: 75vw;
+ }
+
+ .library {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: #a7a7a7;
+   font-size: 16px;
+   font-weight: 600;
+   margin: 10px;
+   
+   position:relative;
+ }
+
+ .library img {
+
+   width: 20px;
+   height: 20px;
+   margin-left: auto;
+ }
+
+ .playlist {
+   padding: 21px 11px;
+   border-radius: 10px;
+   margin: 2px;
+
+ }
+
+ .playlist button {
+   background-color: white;
+   color: black;
+   border: none;
+   padding: 8px 16px;
+   border-radius: 20px;
+   font-size: 14px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: transform 0.1s;
+
+ }
+
+ .button:hover {
+   transform: scale(1.07);
+ }
+
+ .playlist h3 {
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 8px;
+   color: white;
+ }
+
+ .playlist h4 {
+   font-size: 14px;
+   font-weight: 400;
+   color: #a7a7a7;
+   margin-bottom: 20px;
+ }
+
+ .footer {
+   font-size: 10px;
+   gap:13px;
+   position:absolute;
+  bottom:0;
+ }
+
+ .footer a{
+  color:gray;
   
-}
-.right{
-  width:75vw;
-}
+ }
 
-.library{
-  margin:15px;
-  padding:3px;
-  align-items: centre;
-}
-.library img {
-  
-  width:20px;
-  height:20px;
-  margin-left:auto;
-}
-
-.playlist{
-  padding: 10px 20px;
-  border-radius:10px;
-}
-.playlist btton{
-  border-radius:50%;
-}
